@@ -2,7 +2,7 @@
  * Oracle Corporation Java 1.8.0_72, Linux i386 4.4.0
  * mozart (Intel Core i7-4600U CPU/2701 MHz, 4 Cores, 11776 MB RAM)
  */
-package one.prio.exc.one.bag;
+package one.prio.lib.bag;
 
 import java.util.Iterator;
 

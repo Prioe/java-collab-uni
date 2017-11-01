@@ -37,7 +37,7 @@ public class UniqueList extends ArrayList<Integer> {
 
     elements.forEach(this::add);
 
-    return initialLength == super.size();
+    return initialLength < super.size();
   }
 
   public boolean addAll(int idx, Collection<? extends Integer> elements) {
@@ -55,9 +55,10 @@ public class UniqueList extends ArrayList<Integer> {
 
   @Override
    public Integer set(int idx, Integer element) throws IllegalArgumentException {
-      Objects.requireNonNull(element);
+     Objects.requireNonNull(element);
+     int elementIdx = super.indexOf(element);
 
-     if (super.contains(element)) {
+     if (elementIdx >= 0 && idx != elementIdx) {
       throw new IllegalArgumentException();
      }
      return super.set(idx, element);

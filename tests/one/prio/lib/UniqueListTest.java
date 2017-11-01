@@ -57,11 +57,16 @@ public class UniqueListTest {
     @Test
     public void addAll() throws Exception {
         UniqueList ul1 = new UniqueList(1,2,3);
-        ul1.addAll(Arrays.asList(3,4,5,6));
+        assertTrue(ul1.addAll(Arrays.asList(4,5,6)));
         assertArrayEquals(ul1.toArray(), new Integer[]{1,2,3,4,5,6});
 
+        UniqueList ul3 = new UniqueList(1,2,3);
+        assertTrue(ul3.addAll(Arrays.asList(2,3,4)));
+        assertArrayEquals(ul3.toArray(), new Integer[]{1,2,3,4});
+
         UniqueList ul2 = new UniqueList(1, 2, 3);
-        assertTrue(ul2.addAll(Arrays.asList(3,4,5,6)));
+        assertFalse(ul2.addAll(Arrays.asList(1,2,3)));
+        assertArrayEquals(ul2.toArray(), new Integer[]{1,2,3});
     }
 
     @Test
@@ -91,6 +96,24 @@ public class UniqueListTest {
     @Test
     public void set() throws Exception {
         UniqueList ul = new UniqueList(1, 2, 3);
+        assertEquals((int) ul.set(0, 4), 1);
+        assertArrayEquals(ul.toArray(), new Integer[]{ 4, 2, 3});
+
+        ul = new UniqueList(1, 2, 3);
+        assertEquals((int) ul.set(0, 1), 1);
+        assertArrayEquals(ul.toArray(), new Integer[]{ 1, 2, 3});
+    }
+
+    @Test(expected = IndexOutOfBoundsException.class)
+    public void setOutOfBounds() throws Exception {
+        UniqueList ul = new UniqueList(1, 2, 3);
+        ul.set(3, 4);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void setIllegalArgument () throws Exception {
+        UniqueList ul = new UniqueList(1, 2, 3);
+        ul.set(1, 1);
     }
 
 }

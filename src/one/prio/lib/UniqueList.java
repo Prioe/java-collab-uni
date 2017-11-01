@@ -3,11 +3,14 @@
 
 package one.prio.lib;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Objects;
 
 public class UniqueList extends ArrayList<Integer> {
 
-  public UniqueList (Integer... args) {
+  public UniqueList(Integer... args) {
     super();
     this.addAll(Arrays.asList(args));
   }
@@ -20,14 +23,14 @@ public class UniqueList extends ArrayList<Integer> {
   }
 
   @Override
-   public void add(int idx, Integer n) throws IndexOutOfBoundsException, IllegalArgumentException {
+  public void add(int idx, Integer n) throws IndexOutOfBoundsException, IllegalArgumentException {
     Objects.requireNonNull(n);
 
-     if (super.contains(n)) {
-       throw new IllegalArgumentException();
-     }
-     super.add(idx, n);
-   }
+    if (super.contains(n)) {
+      throw new IllegalArgumentException();
+    }
+    super.add(idx, n);
+  }
 
   @Override
   public boolean addAll(Collection<? extends Integer> elements) {
@@ -54,13 +57,13 @@ public class UniqueList extends ArrayList<Integer> {
   }
 
   @Override
-   public Integer set(int idx, Integer element) throws IllegalArgumentException {
-     Objects.requireNonNull(element);
-     int elementIdx = super.indexOf(element);
+  public Integer set(int idx, Integer element) throws IllegalArgumentException {
+    Objects.requireNonNull(element);
+    int elementIdx = super.indexOf(element);
 
-     if (elementIdx >= 0 && idx != elementIdx) {
+    if (elementIdx >= 0 && idx != elementIdx) {
       throw new IllegalArgumentException();
-     }
-     return super.set(idx, element);
-   }
+    }
+    return super.set(idx, element);
+  }
 }

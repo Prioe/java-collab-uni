@@ -8,8 +8,8 @@
 
 package one.prio.exc.one;
 
-import one.prio.lib.bag.TreeBag;
 import one.prio.lib.UniqueList;
+import one.prio.lib.bag.TreeBag;
 
 public class Main {
   public static void main(String[] args) {

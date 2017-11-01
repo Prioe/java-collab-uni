@@ -6,63 +6,81 @@ package one.prio.lib.bag;
 
 import java.util.Iterator;
 
-/** Eine Tuete mit Elementen.
+/**
+ * Eine Tuete mit Elementen.
  * Geordnete Elemente wie ein TreeSet.
  * Kann Duplikate enthalten wie eine Liste.
  * Eine Tuete mit Buchstaben kann beispielweise ein A, zwei B und eine Million C enthalten.
+ *
+ * @param T Elementtyp. Beliebiger Referenztyp.
  * @author Gudrun Schiedermeier, gschied@haw-landshut.de
  * @version 2017-10-08
- * @param T Elementtyp. Beliebiger Referenztyp.
  */
-public interface Bag<T> extends Iterable<T>{
-    /** Fuegt ein Exemplar von element ein.
-     * @param element Element.
-     * @return Diese Tuete.
-     */
-    Bag<T> add(T element);
+public interface Bag<T> extends Iterable<T> {
+  /**
+   * Fuegt ein Exemplar von element ein.
+   *
+   * @param element Element.
+   * @return Diese Tuete.
+   */
+  Bag<T> add(T element);
 
-    /** Fuer times Exemplare von element ein.
-     * @param element Element.
-     * @param times Anzahl Exemplare.
-     * @return Diese Tuete.
-     * @throws IllegalArgumentException wenn die Anzahl negativ ist.
-     */
-    Bag<T> add(T element, int times);
+  /**
+   * Fuer times Exemplare von element ein.
+   *
+   * @param element Element.
+   * @param times   Anzahl Exemplare.
+   * @return Diese Tuete.
+   * @throws IllegalArgumentException wenn die Anzahl negativ ist.
+   */
+  Bag<T> add(T element, int times);
 
-    /** Liefert die Anzahl Exemplare eines Elementes.
-     * @param element Ein Element.
-     * @return Anzahl Exemplare. 0, wenn das Element ueberhaupt nicht enthalten ist.
-     * Nicht negativ.
-     */
-    int contains(T element);
+  /**
+   * Liefert die Anzahl Exemplare eines Elementes.
+   *
+   * @param element Ein Element.
+   * @return Anzahl Exemplare. 0, wenn das Element ueberhaupt nicht enthalten ist.
+   * Nicht negativ.
+   */
+  int contains(T element);
 
-    /** Ein Iterator ueber alle Elemente.
-     * @return Iterator.
-     */
-    Iterator<T> iterator();
+  /**
+   * Ein Iterator ueber alle Elemente.
+   *
+   * @return Iterator.
+   */
+  Iterator<T> iterator();
 
-    /** Entfernt ein Exemplar eines Elementes.
-     * @param element Ein Element.
-     * @return true, wenn die Tuete geschrumpft ist;
-     * false, wenn das Element nicht enthalten war.
-     */
-    boolean remove(T element);
+  /**
+   * Entfernt ein Exemplar eines Elementes.
+   *
+   * @param element Ein Element.
+   * @return true, wenn die Tuete geschrumpft ist;
+   * false, wenn das Element nicht enthalten war.
+   */
+  boolean remove(T element);
 
-    /** Entfernt alle Exemplare eines Elementes.
-     * @param element Ein Element.
-     * @return true, wenn die Tuete geschrumpft ist;
-     * false, wenn das Element nicht enthalten war.
-     */
-    boolean removeAll(T element);
+  /**
+   * Entfernt alle Exemplare eines Elementes.
+   *
+   * @param element Ein Element.
+   * @return true, wenn die Tuete geschrumpft ist;
+   * false, wenn das Element nicht enthalten war.
+   */
+  boolean removeAll(T element);
 
-    /** Liefert die Gesamtzahl aller Elemente.
-     * @return Anzahl Elemente. 0, wenn die Tuete leer ist. Nicht negativ.
-     */
-    int size();
+  /**
+   * Liefert die Gesamtzahl aller Elemente.
+   *
+   * @return Anzahl Elemente. 0, wenn die Tuete leer ist. Nicht negativ.
+   */
+  int size();
 
-    /** Entfernt alle Elemente aus der Tuete. Nachher ist die leer.
-     * @return Diese Tuete.
-     */
-    Bag<T> clear();
+  /**
+   * Entfernt alle Elemente aus der Tuete. Nachher ist die leer.
+   *
+   * @return Diese Tuete.
+   */
+  Bag<T> clear();
 
 }

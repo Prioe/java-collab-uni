@@ -1,0 +1,7 @@
+[alias]
+  main = //one/prio/exc/one:exc-one
+
+[java]
+  src_roots = /
+  source_level = 8
+  target_level = 8

@@ -8,7 +8,7 @@
 
 package one.prio.exc.one;
 
-import one.prio.lib.TreeBag;
+import one.prio.lib.bag.TreeBag;
 import one.prio.lib.UniqueList;
 
 public class Main {
@@ -32,5 +32,24 @@ public class Main {
 
     tb0.add(1);
     System.out.println("tb0<addDuplicate>: " + tb0);
+
+    tb0.add(2, 5);
+    System.out.println("tb0<add2x5>: " + tb0);
+
+    tb0.add(1, 500);
+    System.out.println("tb0<addDuplicatex500>: " + tb0);
+
+    tb0.remove(1);
+    System.out.println("tb0<remove1>: " + tb0);
+
+    tb0.removeAll(2);
+    System.out.println("tb0<removeAll>: " + tb0);
+
+
+    System.out.println("size:" + tb0.size());
+
+    System.out.println("tb0<contain>: " + tb0.contains(1));
+    System.out.println("tb0<containNothingThere>: " + tb0.contains(5));
+
   }
 }

@@ -50,7 +50,7 @@ public class UniqueList extends ArrayList<Integer> {
       this.add(currentIdx++, e);
     }
 
-    return initialLength <= super.size();
+    return initialLength < super.size();
   }
 
   @Override

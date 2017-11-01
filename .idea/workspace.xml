@@ -5,15 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/one/prio/exc/one/Main.java" line="18" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a711de67-e047-4ee2-bf94-60eedb09173d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkstyle.xml" afterPath="$PROJECT_DIR$/checkstyle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pmd.xml" afterPath="$PROJECT_DIR$/pmd.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/one/prio/exc/one/Main.java" afterPath="$PROJECT_DIR$/src/one/prio/exc/one/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/one/prio/lib/UniqueList.java" afterPath="$PROJECT_DIR$/src/one/prio/lib/UniqueList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/one/prio/lib/bag/Bag.java" afterPath="$PROJECT_DIR$/src/one/prio/lib/bag/Bag.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/one/prio/lib/bag/TreeBag.java" afterPath="$PROJECT_DIR$/src/one/prio/lib/bag/TreeBag.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/one/prio/lib/UniqueListTest.java" afterPath="$PROJECT_DIR$/tests/one/prio/lib/UniqueListTest.java" />
-    </list>
+    <list default="true" id="a711de67-e047-4ee2-bf94-60eedb09173d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/one/prio/lib/UniqueList.java" line="38" mnemonic="7" />
+    <bookmark url="file://$PROJECT_DIR$/src/one/prio/lib/UniqueList.java" line="40" mnemonic="7" />
     <bookmark url="file://$PROJECT_DIR$/src/one/prio/exc/one/Main.java" line="18" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a711de67-e047-4ee2-bf94-60eedb09173d" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/one/prio/lib/TreeBag.java" afterPath="$PROJECT_DIR$/src/one/prio/lib/bag/TreeBag.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/one/prio/exc/one/Main.java" afterPath="$PROJECT_DIR$/src/one/prio/exc/one/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/one/prio/lib/UniqueList.java" afterPath="$PROJECT_DIR$/src/one/prio/lib/UniqueList.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/one/prio/exc/one/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="660">
@@ -35,17 +33,16 @@
       <file leaf-file-name="UniqueList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/one/prio/lib/UniqueList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="26" column="35" lean-forward="false" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+            <state relative-caret-position="810">
+              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding>
-                <element signature="e#0#1341#0" expanded="true" />
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#1437#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TreeBag.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TreeBag.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/one/prio/lib/bag/TreeBag.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="675">
@@ -91,10 +88,10 @@
         <option value="$PROJECT_DIR$/one/prio/exc/one/UniqueList.java" />
         <option value="$PROJECT_DIR$/build/production/java-collab-uni/one/prio/exc/one/Main.class" />
         <option value="$PROJECT_DIR$/src/one/prio/exc/one/UniqueList.java" />
-        <option value="$PROJECT_DIR$/src/one/prio/lib/UniqueList.java" />
         <option value="$PROJECT_DIR$/src/one/prio/lib/TreeBag.java" />
         <option value="$PROJECT_DIR$/src/one/prio/exc/one/Main.java" />
         <option value="$PROJECT_DIR$/src/one/prio/lib/bag/TreeBag.java" />
+        <option value="$PROJECT_DIR$/src/one/prio/lib/UniqueList.java" />
       </list>
     </option>
   </component>
@@ -322,7 +319,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329296" sideWeight="0.53395784" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329296" sideWeight="0.46604216" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329296" sideWeight="0.46604216" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.37774414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="1724" y="33" width="1708" height="1399" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -369,8 +366,7 @@
         <state relative-caret-position="375">
           <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
           <folding>
-            <element signature="e#0#1341#0" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#1437#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -499,24 +495,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/one/prio/exc/one/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="18" lean-forward="false" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#1393#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/one/prio/lib/UniqueList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="26" column="35" lean-forward="false" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        <state relative-caret-position="810">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding>
-            <element signature="e#0#1341#0" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#1437#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -534,6 +518,17 @@
             <element signature="e#1333#1334#0" expanded="true" />
             <element signature="e#2300#2301#0" expanded="true" />
             <element signature="e#2379#2380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/one/prio/exc/one/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="18" lean-forward="false" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#1393#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

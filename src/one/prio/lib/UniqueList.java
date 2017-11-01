@@ -3,10 +3,7 @@
 
 package one.prio.lib;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Collection;
-import java.util.Arrays;
+import java.util.*;
 
 public class UniqueList extends ArrayList<Integer> {
 
@@ -17,12 +14,15 @@ public class UniqueList extends ArrayList<Integer> {
 
   @Override
   public boolean add(Integer n) {
+    Objects.requireNonNull(n);
     boolean elementExist = super.contains(n);
     return !elementExist && super.add(n);
   }
 
   @Override
    public void add(int idx, Integer n) throws IndexOutOfBoundsException, IllegalArgumentException {
+    Objects.requireNonNull(n);
+
      if (super.contains(n)) {
        throw new IllegalArgumentException();
      }
@@ -31,6 +31,8 @@ public class UniqueList extends ArrayList<Integer> {
 
   @Override
   public boolean addAll(Collection<? extends Integer> elements) {
+    Objects.requireNonNull(elements);
+
     final int initialLength = super.size();
 
     elements.forEach(this::add);
@@ -39,6 +41,8 @@ public class UniqueList extends ArrayList<Integer> {
   }
 
   public boolean addAll(int idx, Collection<? extends Integer> elements) {
+    Objects.requireNonNull(elements);
+
     final int initialLength = super.size();
     int currentIdx = idx;
 
@@ -51,6 +55,8 @@ public class UniqueList extends ArrayList<Integer> {
 
   @Override
    public Integer set(int idx, Integer element) throws IllegalArgumentException {
+      Objects.requireNonNull(element);
+
      if (super.contains(element)) {
       throw new IllegalArgumentException();
      }

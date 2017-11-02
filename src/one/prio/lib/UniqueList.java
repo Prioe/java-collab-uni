@@ -12,6 +12,11 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.Objects;
 
+/**
+ * Eine UniqueList ist eine ArrayList, die nur ganze Zahlen speichert. Anders als bei einer Arrayliste enthält eine
+ * UniqueList nur eindeutige Elemente, das heißt
+ * keine Duplikate. (In dieser Hinsicht verhält sie sich wie ein Set.)
+ */
 public class UniqueList extends ArrayList<Integer> {
 
   /**
@@ -82,7 +87,7 @@ public class UniqueList extends ArrayList<Integer> {
    * Elemente machen Platz und rücken nach
    * hinten.
    *
-   * @param idx Index an dem die Elemente hinzugefügt werden.
+   * @param idx      Index an dem die Elemente hinzugefügt werden.
    * @param elements Elemente.
    * @return hat sich die Länge der Liste geändert.
    */
@@ -101,6 +106,7 @@ public class UniqueList extends ArrayList<Integer> {
 
   /**
    * Erhält einen Index und ein Element und ersetzt das Element am Index   * @param idx
+   *
    * @param element Element
    * @return das ursprüngliche Element am Index.
    * @throws IndexOutOfBoundsException wenn der gewählte Index zu hoch oder zu niedrig ist.
